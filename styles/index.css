@@ -89,6 +89,12 @@ header {
   font-weight: 700;
 }
 
+.inicio-input {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .inicio-input input {
   width: 100%;
   max-width: 450px;
@@ -97,6 +103,30 @@ header {
   border: none;
   font-size: 14px;
   outline: none;
+}
+
+.lista-bairros {
+  position: absolute;
+  width: 100%;
+  background: white;
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+  border-radius: 6px;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista-bairros li {
+  padding: 10px;
+  cursor: pointer;
+  color: #3c3c3c;
+}
+
+.lista-bairros li:hover {
+  background-color: #e8f5e9;
 }
 
 .inicio-logos {
@@ -156,6 +186,10 @@ header {
   border: none;
   font-size: 14px;
   outline: none;
+}
+
+.formulario-box-campo strong {
+  padding: 10px 0;
 }
 
 /* Contato */
@@ -432,8 +466,12 @@ header {
 .faq-box-resposta {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.4s ease;
+  transition: max-height 0.3s ease;
   padding: 0 20px;
+}
+
+.faq-box.active .faq-box-resposta {
+  max-height: 500px;
 }
 
 .faq-box-resposta p {
@@ -556,6 +594,20 @@ footer img {
 .conteudo-formulario-container input:focus,
 .conteudo-formulario-container textarea:focus {
   box-shadow: 0 0 0 2px #66bb6a;
+}
+
+.conteudo-formulario-container button {
+  background-color: #33781E;
+  padding: 12px;
+  color: #F2FAEF;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.conteudo-formulario-container button:hover {
+  cursor: pointer;
+  background-color: #5B9F53;
 }
 
 /* @medias Mobile - Responsividade */

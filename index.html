@@ -24,6 +24,7 @@
       </div>
 
       <div class="header-menu" id="menu">
+        <a href="/">início</a>
         <a href="/#descarte">como realizar o descarte</a>
         <a href="/formulario.html">denuncie um descarte inadequado</a>
         <a href="/#contato">entre em contato</a>
@@ -38,7 +39,13 @@
         <h1>Guia Para Descarte<br />de Resíduos em Joinville</h1>
 
         <div class="inicio-input">
-          <input type="text" placeholder="Selecione o nome do bairro" />
+          <input
+            type="text"
+            id="bairroInput"
+            placeholder="Selecione o nome do bairro"
+            autocomplete="off"
+          />
+          <ul id="listaBairros" class="lista-bairros"></ul>
         </div>
 
         <ul class="inicio-logos">
@@ -58,10 +65,22 @@
     <!-- Formulário -->
     <section class="formulario">
       <h2>Descubra...</h2>
+
       <div class="formulario-box">
-        <div class="formulario-box-campo"><span>Bairro:</span></div>
-        <div class="formulario-box-campo"><span>Horário de coleta:</span></div>
-        <div class="formulario-box-campo"><span>Principal EcoPonto:</span></div>
+        <div class="formulario-box-campo">
+          <span>Bairro: </span>
+          <strong id="infoBairro"></strong>
+        </div>
+
+        <div class="formulario-box-campo">
+          <span>Horário de coleta: </span>
+          <strong id="infoHorario"></strong>
+        </div>
+
+        <div class="formulario-box-campo">
+          <span>Principal EcoPonto: </span>
+          <strong id="infoEcoponto"></strong>
+        </div>
       </div>
     </section>
 
