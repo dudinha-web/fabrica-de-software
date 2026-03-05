@@ -9,13 +9,13 @@ O sistema foi projetado para ser direto e funcional, atendendo aos seguintes req
   - Seleção de Bairro: Consulta personalizada de informações por localidade.
   - Cronograma de Coleta: Exibição de dias e turnos da coleta seletiva e convencional.
   - Localização de Ecopontos: Listagem de endereços dos pontos oficiais de entrega voluntária.
-  - Integração com Mapas: Links diretos para rotas no Google Maps.
+  - Integração com Mapas: Integração com o Google Maps, permitindo o usuário navegar pelo mapa.
   - Formulário de Denúncia: Canal para relato anônimo de descartes irregulares em vias públicas.
   - Central de Contatos: Telefones e canais de atendimento da Prefeitura e Ambiental.
   - Guia Educativo: Orientações sobre a separação correta de diversos materiais.
   - Filtro por Categoria: Consulta específica para itens como pilhas, óleo e eletrônicos.
   - FAQ: Seção de dúvidas frequentes sobre taxas e serviços municipais.
-  - Botão de Compartilhamento: Envio rápido de informações via WhatsApp.
+  - Botão de Compartilhamento: Envio rápido via WhatsApp.
 
 - Tecnologias Utilizadas
 Para garantir leveza e rapidez no carregamento (conforme Requisitos Não Funcionais), foram utilizadas as tecnologias base da web:
