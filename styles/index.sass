@@ -543,6 +543,46 @@ footer img
     cursor: pointer
     background-color: $third-color
 
+.pagina-contato 
+    height: 70vh
+    display: flex;
+    justify-content: center;
+
+.contato-cards 
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    align-items: center
+    gap: 54px
+
+.contato-cards > a 
+    text-decoration: none
+
+.contato-cards > a > .card
+    background-color:$fith-color
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 18px
+    padding: 64px 32px
+    border-radius: 18px
+    transition: 0.3s
+
+.contato-cards > a > .card:hover
+    transform: translateY(-5px)
+    background-color: #b9d9b5
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08)
+
+.card > span 
+    font-family: "Poppins", sans-serif
+    color: #3c3c3c
+
+.card > p 
+    font-size: 18px
+    font-weight: 600
+    font-family: "Poppins", sans-serif
+    color: $second-color
+
 /* @medias Mobile - Responsividade */
 
 @media (max-width: 768px) 
@@ -634,3 +674,10 @@ footer img
 
     footer img 
         height: 50px
+
+    .pagina-contato 
+        height: 100%
+        padding: 32px
+
+    .contato-cards
+        grid-template-columns: 1fr
