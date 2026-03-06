@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  /* =====================================
-     MENU HAMBURGUER
-  ===================================== */
+/*  Menu Hamburguer */
 
   const toggle = document.getElementById("menu-toggle");
   const menu = document.getElementById("menu");
@@ -13,10 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-
-  /* =====================================
-     BUSCA DE BAIRROS
-  ===================================== */
+  /*   Busca De Bairros */
 
   const input = document.getElementById("bairroInput");
   const lista = document.getElementById("listaBairros");
@@ -91,10 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   }
 
-
-  /* =====================================
-     FAQ - ABRIR E FECHAR
-  ===================================== */
+  /* FAQ - efeito sanfona */
 
   const faqBoxes = document.querySelectorAll(".faq-box");
 
@@ -121,10 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   }
 
-
-  /* =====================================
-     FORMULÁRIO DE DENÚNCIA
-  ===================================== */
+  /* FORMULÁRIO DE DENÚNCIA */
 
   const form = document.getElementById("formDenuncia");
 
