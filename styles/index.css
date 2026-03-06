@@ -57,7 +57,7 @@ header {
 .inicio {
   position: relative;
   height: 500px;
-  background: url("/img/background-vista-mirante.png") center/cover no-repeat;
+  background: url("../img/background-vista-mirante.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -403,7 +403,7 @@ header {
 .faq {
   position: relative;
   padding: 100px 20px;
-  background: url("/img/background-rua-das-palmeiras.png") center/cover no-repeat;
+  background: url("../img/background-rua-das-palmeiras.png") center/cover no-repeat;
 }
 
 .faq .overlay {
@@ -530,7 +530,7 @@ footer img {
 .formulario-de-denuncia {
   position: relative;
   height: 300px;
-  background: url("/img/background-expoville.png") center/cover no-repeat;
+  background: url("../img/background-expoville.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

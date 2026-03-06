@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/index.css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dudinha-web.github.io/fabrica-de-software/" />
+    <meta property="og:title" content="Hub de Descarte Joinville" />
+    <meta property="og:description" content="Guia prático para descarte de resíduos em Joinville: encontre ecopontos e horários de coleta." />
+    <meta property="og:image" content="https://dudinha-web.github.io/fabrica-de-software/assets/img/preview-site.jpg" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,18 +21,21 @@
   <body>
     <header>
       <div class="logomarca">
-        <img src="/img/logomarca-univille.png" alt="Logomarca Univille" />
+        <img src="img/logomarca-univille.png" alt="Logomarca Univille" />
       </div>
 
       <div class="menu-toggle" id="menu-toggle">
-        <img src="/img/menu-hamburguer.svg" alt="Menu" />
+        <img src="img/menu-hamburguer.svg" alt="Menu" />
       </div>
 
       <div class="header-menu" id="menu">
-        <a href="/">início</a>
-        <a href="/#descarte">como realizar o descarte</a>
-        <a href="/formulario.html">denuncie um descarte inadequado</a>
-        <a href="/contato.html">entre em contato</a>
+        <a href="index.html">início</a>
+        <a href="index.html#descarte">como realizar o descarte</a>
+        <a href="formulario.html">denuncie um descarte inadequado</a>
+        <a href="contato.html">entre em contato</a>
+        <a href="https://api.whatsapp.com/send?text=Confira o Hub de Descarte Joinville: https://dudinha-web.github.io/fabrica-de-software/" target="_blank">
+          compartilhar site
+        </a>
       </div>
     </header>
 
@@ -51,12 +59,12 @@
         <ul class="inicio-logos">
           <li>
             <img
-              src="/img/logomarca-prefeitura-joinville.png"
+              src="img/logomarca-prefeitura-joinville.png"
               alt="Prefeitura de Joinville"
             />
           </li>
           <li>
-            <img src="/img/logo-ecologico.png" alt="Símbolo de Ecologia" />
+            <img src="img/logo-ecologico.png" alt="Símbolo de Ecologia" />
           </li>
         </ul>
       </div>
@@ -94,8 +102,7 @@
         </h2>
         <a
           class="btn-contato"
-          href="https://joinville.prefeituras.org/contato/0"
-          target="_blank"
+          href="contato.html"
           >Fale com um especialista</a
         >
       </div>
@@ -119,7 +126,7 @@
 
       <div class="passos-cards">
         <div class="passo-card">
-          <img src="/img/one-icon.svg" alt="Ícone Passo Um" />
+          <img src="img/one-icon.svg" alt="Ícone Passo Um" />
           <h3>Escolha seu bairro</h3>
           <p>
             Selecione seu bairro para encontrar as informações específicas da
@@ -128,13 +135,13 @@
         </div>
 
         <div class="passo-card">
-          <img src="/img/two-icon.svg" alt="Ícone Passo Dois" />
+          <img src="img/two-icon.svg" alt="Ícone Passo Dois" />
           <h3>Verifique os horários</h3>
           <p>Consulte os horários de coleta disponíveis para o seu endereço.</p>
         </div>
 
         <div class="passo-card">
-          <img src="/img/three-icon.svg" alt="Ícone Passo Três" />
+          <img src="img/three-icon.svg" alt="Ícone Passo Três" />
           <h3>Encontre o EcoPonto</h3>
           <p>Localize o ponto de coleta ou ecoponto mais próximo de você.</p>
         </div>
@@ -148,7 +155,7 @@
       <div class="categorias-grid">
         <div class="categorias-grid-item bg-1">
           <span
-            ><img src="/img/oleo-icon.svg" alt="Óleo de Cozinha ícone" />Óleo de
+            ><img src="img/oleo-icon.svg" alt="Óleo de Cozinha ícone" />Óleo de
             Cozinha</span
           >
           <p>
@@ -158,7 +165,7 @@
         </div>
         <div class="categorias-grid-item bg-1">
           <span
-            ><img src="/img/moveis-icon.svg" alt="Móvel ícone" />Móveis
+            ><img src="img/moveis-icon.svg" alt="Móvel ícone" />Móveis
             Velhos</span
           >
           <p>
@@ -170,7 +177,7 @@
         <div class="categorias-grid-item bg-2">
           <span
             ><img
-              src="/img/eletrodomesticos-icon.svg"
+              src="img/eletrodomesticos-icon.svg"
               alt="Eletrodoméstico ícone"
             />Eletrodomésticos</span
           >
@@ -181,7 +188,7 @@
         </div>
         <div class="categorias-grid-item bg-2">
           <span
-            ><img src="/img/pilhas-icone.svg" alt="Pilha ícone" />Pilhas e
+            ><img src="img/pilhas-icone.svg" alt="Pilha ícone" />Pilhas e
             Bateria</span
           >
           <p>
@@ -193,7 +200,7 @@
         <div class="categorias-grid-item bg-3">
           <span
             ><img
-              src="/img/lampada-icone.svg"
+              src="img/lampada-icone.svg"
               alt="Lâmpada ícone"
             />Lâmpadas</span
           >
@@ -205,7 +212,7 @@
         <div class="categorias-grid-item bg-3">
           <span
             ><img
-              src="/img/reciclaveis-icone.svg"
+              src="img/reciclaveis-icone.svg"
               alt="Reciclável ícone"
             />Recicláveis</span
           >
@@ -218,7 +225,7 @@
         <div class="categorias-grid-item bg-1">
           <span
             ><img
-              src="/img/medicamentos-icone.svg"
+              src="img/medicamentos-icone.svg"
               alt="Medicamento ícone"
             />Medicamentos</span
           >
@@ -228,7 +235,7 @@
           </p>
         </div>
         <div class="categorias-grid-item bg-1">
-          <span><img src="/img/pneus-icone.svg" alt="Pneu ícone" />Pneus</span>
+          <span><img src="img/pneus-icone.svg" alt="Pneu ícone" />Pneus</span>
           <p>
             Devolva na loja onde comprou ou leve à Unidade de Obras Sudeste
             (Paranaguamirim).
@@ -237,7 +244,7 @@
 
         <div class="categorias-grid-item bg-2">
           <span
-            ><img src="/img/tintas-icone.svg" alt="Tinta ícone" />Tintas e
+            ><img src="img/tintas-icone.svg" alt="Tinta ícone" />Tintas e
             Solventes</span
           >
           <p>
@@ -247,7 +254,7 @@
         </div>
         <div class="categorias-grid-item bg-2">
           <span
-            ><img src="/img/vidros-icone.svg" alt="Vidro ícone" />Vidros</span
+            ><img src="img/vidros-icone.svg" alt="Vidro ícone" />Vidros</span
           >
           <p>
             Devem ser levados aos pontos específicos de coleta de vidro da
@@ -258,7 +265,7 @@
         <div class="categorias-grid-item bg-3">
           <span
             ><img
-              src="/img/construcao-icone.svg"
+              src="img/construcao-icone.svg"
               alt="Construção ícone"
             />Construção/Poda</span
           >
@@ -270,7 +277,7 @@
         <div class="categorias-grid-item bg-3">
           <span
             ><img
-              src="/img/seringas-icone.svg"
+              src="img/seringas-icone.svg"
               alt="Seringas ícone"
             />Seringas/Agulhas</span
           >
@@ -364,12 +371,12 @@
     </section>
 
     <footer>
-      <img src="/img/logomarca-univille.png" alt="Logomarca Univille" />
+      <img src="img/logomarca-univille.png" alt="Logomarca Univille" />
       <ul class="footer-contacts">
         <li class="footer-contact-item">
           <a href="https://maps.app.goo.gl/2gzZx7MdvqfqjLA89" target="_blank"
             ><img
-              src="/img/location-footer-icon.svg"
+              src="img/location-footer-icon.svg"
               alt="Ícone de Localização"
             />R. Paulo Malschitzki</a
           >
@@ -377,7 +384,7 @@
         <li class="footer-contact-item">
           <a href="tel:+554734619000"
             ><img
-              src="/img/phone-footer-icon.svg"
+              src="img/phone-footer-icon.svg"
               alt="Ícone de Telefone"
             />(47) 3461-9000</a
           >
@@ -385,7 +392,7 @@
         <li class="footer-contact-item">
           <a href="mailto:univille@univille.br" target="_blank"
             ><img
-              src="/img/email-footer-icon.svg"
+              src="img/email-footer-icon.svg"
               alt="Ícone de Email"
             />univille@univille.br</a
           >
@@ -393,7 +400,7 @@
         <li class="footer-contact-item">
           <a href="https://www.instagram.com/univille/" target="_blank"
             ><img
-              src="/img/insta-footer-icon.svg"
+              src="img/insta-footer-icon.svg"
               alt="Ícone do Instagram"
             />@univille</a
           >
